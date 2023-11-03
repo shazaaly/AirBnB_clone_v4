@@ -117,9 +117,10 @@ button:hover {
 }
 
 .text-ellipsis {
-    width: 200px;
+    height: 18px;
+    width: 187;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
 
 }
