@@ -84,6 +84,7 @@ button:hover {
 
 .amenities .popover ul {
     margin: 0px;
+    overflow: auto;
 }
 
 .amenities .popover ul li input {

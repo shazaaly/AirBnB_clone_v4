@@ -33,6 +33,7 @@ $(document).ready(function () {
     }
   });
 
+  console.log("article total:"+$("section.places article").length)
   console.log('2-hbnb');
   $.ajax({
     type: 'GET',

@@ -74,6 +74,8 @@ $(document).ready(function () {
 
         $('section.places').append(places);
       });
+
+      console.log("article total:" + $("section.places article").length)
     },
     error: function (error) {
       console.error('Error:', error);
